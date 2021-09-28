@@ -1,6 +1,8 @@
 on: 
   watch:
     types: started 
+  schedule:
+    - cron:  '*/5 * * * *'
 
 jobs:
   one:
