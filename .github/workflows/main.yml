@@ -1,4 +1,6 @@
-on: push
+on: 
+  watch:
+    types: started 
 
 jobs:
   one:
